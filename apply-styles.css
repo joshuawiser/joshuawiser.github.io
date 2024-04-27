@@ -1,0 +1,141 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styles for the navigation bar */
+#apply-nav {
+    background-color: #f6f6f8;
+    color: #62a1d7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    height: 100px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px; /* Add padding on the sides */
+}
+
+.logo {
+    width: 125px; /* Adjust the size as needed */
+}
+
+.nav-links {
+    margin-left: auto; /* Push the nav links to the right */
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    padding: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #62a1d7;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* This ensures vertical centering */
+}
+
+
+/* Main content styling */
+#apply-main {
+    padding-top: 150px; /* Offset for the fixed navigation */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    padding-bottom: 100px; /* Space for footer */
+    flex-wrap: wrap; /* Wrap items to next line on smaller screens */
+    gap: 550px; /* Spacing between sidebar and form */
+}
+
+/* Form styling */
+#apply-form {
+    width: 175%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#apply-form label {
+    margin-top: 10px;
+    color: #333;
+    display: block; /* Ensure label is full width */
+}
+
+#apply-form input, #apply-form label {
+    width: 100%; /* Full width of the form */
+    padding: 10px;
+    margin-top: 5px; /* Margin to separate the form items */
+}
+
+#apply-form input[type='submit'] {
+    margin-top: 20px;
+    background-color: #62a1d7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#apply-form input[type='submit']:hover {
+    background-color: #5091b3;
+}
+
+/* Footer styling */
+#apply-footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.sidebar {
+    flex: 1;
+    max-width: 300px; /* Adjust based on design preference */
+    padding-right: 20px; /* Space between sidebar and form */
+}
+
+.large-logo {
+    width: 100%; /* Adjust to fit the sidebar width */
+    margin-bottom: 20px;
+    margin: 0 auto;
+    padding: 0% 15% 5% 15%;
+
+}
+
+.contact-info {
+    padding: 20px;
+    background: #f6f6f8; /* Match the navbar background */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the text for aesthetics */
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
