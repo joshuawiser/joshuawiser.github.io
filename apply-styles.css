@@ -146,15 +146,15 @@ body, html {
     }
 
     .nav-links li {
-        padding: 5px 0; /* Stack the links with spacing */
+        padding: 15px 0; /* Stack the links with spacing */
     }
 
     .nav-links a {
-        padding: 8px 0;
+        padding: 15px 0;
     }
 
     #apply-main {
-        padding-top: 120px; /* Increase padding-top due to the stacked nav */
+        padding-top: 250px; /* Increase padding-top due to the stacked nav */
     }
 
     /* Further style adjustments for the form and other sections can be added as needed */
