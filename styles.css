@@ -70,10 +70,11 @@ nav {
         padding: 20px 10px; /* Less padding to maximize space */
         background-size: contain; /* Adjust if 'cover' cuts off important parts */
         background-position: top center; /* Adjust based on the key elements of your image */
+
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 430px) {
     .hero {
         font-size: 12pt; /* Even smaller font size for very small devices like older iPhones */
         padding: 15px 5px; /* Minimal padding to avoid text spilling out */
