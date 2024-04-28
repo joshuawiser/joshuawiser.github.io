@@ -67,8 +67,7 @@ nav {
 @media (max-width: 480px) {
     .hero {
         font-size: 16pt;
-        padding: 30px 10px;
-        margin-top: 300px;
+        padding: 80px 10px;
     }
 }
 
