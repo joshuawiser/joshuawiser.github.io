@@ -68,9 +68,35 @@ nav {
     .hero {
         font-size: 16pt;
         padding: 70px 10px;
+        box-sizing: border-box;
     }
-    body{
-        max-width: 100%;
+    .nav-container {
+        justify-content: space-between; /* Adjust for mobile screens */
+        padding: 0 10px; /* Add padding to prevent content from touching the edges */
+    }
+    nav {
+        /* ... existing styles ... */
+        padding: 0; /* Remove padding that could cause issues */
+        flex-direction: column; /* Stack items if needed */
+    }
+    .nav-links {
+        width: 100%;
+        padding: 0;
+        margin-top: 10px; /* Space out nav from the logo */
+        display: flex;
+        justify-content: space-around; /* Evenly space navigation links */
+        list-style-type: none; /* Remove bullet points from list items */
+    }
+
+    .nav-links li {
+        /* ... existing styles ... */
+        display: flex; /* Ensure list items are flex items */
+        justify-content: center; /* Center links within the list items */
+    }
+
+    .nav-apply {
+        width: 100%; /* Full width to prevent overlap */
+        order: 3; /* Ensure the button is below the nav links */
     }
     
 }
