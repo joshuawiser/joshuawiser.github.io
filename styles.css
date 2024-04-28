@@ -173,10 +173,6 @@ section {
         margin-left: 0;
     }
 
-    .hero {
-        padding: 50px 20px;
-        padding-right: 20px;
-    }
 
     .logo {
         width: 75px;
@@ -202,9 +198,6 @@ section {
 }
 
 @media (max-width: 480px) {
-    .hero {
-        font-size: 16pt;
-    }
 
     .nav-links {
         text-align: center;
