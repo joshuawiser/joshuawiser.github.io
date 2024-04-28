@@ -44,6 +44,7 @@ nav {
 .hero {
     background-image: url('images/tetonbanner.jpg');
     background-size: cover;
+    background-position: center;
     color: #62a1d7;
     text-align: center;
     padding: 100px 20px;
@@ -52,7 +53,22 @@ nav {
     margin-top: 100px;
     height: 150px;
     background-blend-mode: lighten;
+}
 
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 10px;
+        padding-right: 10px;
+        height: auto;
+        font-size: 20pt;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        font-size: 16pt;
+        padding: 30px 10px;
+    }
 }
 
 section {
