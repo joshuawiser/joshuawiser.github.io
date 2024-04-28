@@ -70,8 +70,7 @@ nav {
         padding: 20px 10px; /* Less padding to maximize space */
         background-size: contain; /* Adjust if 'cover' cuts off important parts */
         background-position: top center; /* Adjust based on the key elements of your image */
-        margin-top: 100px;
-
+        
     }
 }
 
@@ -79,6 +78,7 @@ nav {
     .hero {
         font-size: 12pt; /* Even smaller font size for very small devices like older iPhones */
         padding: 15px 5px; /* Minimal padding to avoid text spilling out */
+        margin-top: 50px;
     }
 }
 
