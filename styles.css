@@ -66,8 +66,17 @@ nav {
 
 @media (max-width: 480px) {
     .hero {
-        font-size: 16pt;
-        padding: 30px 10px;
+        font-size: 14pt; /* Smaller font size for readability on very small devices */
+        padding: 20px 10px; /* Less padding to maximize space */
+        background-size: contain; /* Adjust if 'cover' cuts off important parts */
+        background-position: top center; /* Adjust based on the key elements of your image */
+    }
+}
+
+@media (max-width: 320px) {
+    .hero {
+        font-size: 12pt; /* Even smaller font size for very small devices like older iPhones */
+        padding: 15px 5px; /* Minimal padding to avoid text spilling out */
     }
 }
 
@@ -152,12 +161,6 @@ section {
 }
 
 
-
-/* Base styles - styles.css */
-
-/* Existing styles here... */
-
-/* Responsive styles */
 @media (max-width: 768px) {
     .nav-container, .features {
         flex-direction: column;
