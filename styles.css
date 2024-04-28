@@ -78,7 +78,7 @@ nav {
     .hero {
         font-size: 12pt; /* Even smaller font size for very small devices like older iPhones */
         padding: 15px 5px; /* Minimal padding to avoid text spilling out */
-        margin-top: 50px;
+    
     }
 }
 
