@@ -155,7 +155,7 @@ body, html {
     }
 
     #apply-main {
-        padding-top: 250px; /* Increase padding-top due to the stacked nav */
+        padding-top: 225px; /* Increase padding-top due to the stacked nav */
     }
 
     /* Further style adjustments for the form and other sections can be added as needed */
